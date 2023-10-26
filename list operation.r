@@ -1,0 +1,5 @@
+empID<-c(1,2,3,4)
+empName<-c("suruchi","ruchi","ruhi","rohan")
+NoEmp<-length(empID)
+empList<-list("ID"=empID,"NAME"=empName,"TOTAL STAFF"=NoEmp)
+print(empList)
